@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Función de calculo</title>
+</head>
+<body>
+    <h1>Haciendo Operaciones Matematicas</h1>
+
+    <form id = "form" action="">
+        <!-- Si se utiliza la etiqueta Form esta hace que el ultimo boton se comporte como un submit
+        lo cual hace que se recargue la pagina despúes de hacer click en el boton en este caso no aplicaría a menos que
+         escuchemos el evento de submit en el javaScript y deteniendolo por medio de la función event.preventDefault -->
+        <input class="dato1" type="number">
+        <input class="dato2" type="number">
+        <button type="button" class="resultado">Resultado</button>
+    </form>
+    
+    <p class="tuResultado"></p>
+    
+    <script src="AddEventListenner.js"></script>
+</body>
+</html>
